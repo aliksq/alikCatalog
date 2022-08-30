@@ -1,4 +1,4 @@
-# galina
+# task
 
 ## Project setup
 ```
