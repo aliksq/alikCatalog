@@ -5,9 +5,7 @@
 </template>
 
 <script>
-export default {
-  name: "add-button"
-}
+
 </script>
 
 <style scoped>

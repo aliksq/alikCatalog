@@ -42,18 +42,18 @@
       >
     </form>
 
-    <add-button
-        class="add__btn"
-
-        @click = "validateCard"
+    <AddButton
+        @click = "createCard"
     >
       Добавить товар
-    </add-button>
+    </AddButton>
   </div>
 </template>
 
 <script>
+import AddButton from "@/components/UI/AddButton"
 export default {
+  components:{AddButton},
   data(){
     return {
       card: {
