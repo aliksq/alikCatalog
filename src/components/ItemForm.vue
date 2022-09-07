@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import AddButton from "@/components/UI/AddButton"
+import AddButton from "./UI/AddButton"
 export default {
   components:{AddButton},
   data(){
